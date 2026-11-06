@@ -11,6 +11,4 @@ public class RefundService {
         Account account = accounts.findById(customerId).get();
         account.credit(new java.math.BigDecimal(amount));
     }
-
-
 }
